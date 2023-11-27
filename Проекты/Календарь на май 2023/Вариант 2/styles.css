@@ -1,0 +1,28 @@
+.table {
+	max-width: 280 px;
+	font: 100% system-ui;
+	border: 2px solid black;
+  	border-collapse: collapse;
+}
+.table th, .table td {
+	border: 1px solid black;
+	padding: 10px;
+}
+.row {
+	display: grid; /* Сетка */
+	grid-template-columns: repeat(7, 1fr);
+	background: #bbbbbb;
+	text-align: center;
+}
+.weekday {
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+.weekend {
+	background: black;
+	color: red;
+}
+.week-end {
+	color: red;
+}
