@@ -1,0 +1,120 @@
+header {
+	background-color: #1d1d1d;
+	text-align: center;
+}
+
+.logo {
+	display: block; /* Превращаем изображение в блочный элемент */
+	margin: 5px auto; /* Внешний отступ */
+	padding: 10px 0 0 0;
+	width: 100px;
+	height: 100px;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+}
+
+/* Анимация при наведении */
+.nav a:hover {
+	background-color: orangered;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 25px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	line-height: 25px;
+}
+
+li a {
+	display: block;
+	text-decoration: none; /* Убираем нижнее подчёркивание */
+	color: white;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+.searching {
+	padding: 0 0 10px 0;
+}
+
+input {
+	background-color: white;
+	font-size: 14px;
+	width: 250px;
+	height: 25px;
+	border: 1px solid black;
+}
+
+button {
+	background: #e56d00;
+	color: white;
+	width: 75px;
+	height: 25px;
+	border: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+
+section {
+	text-align: center;
+}
+
+.table {
+	max-width: 280 px;
+	font: 100% system-ui;
+	border: 2px solid black;
+  	border-collapse: collapse;
+}
+.table td {
+	border: 1px solid black;
+	padding: 10px;
+}
+.row {
+	display: grid; /* Сетка */
+	grid-template-columns: repeat(7, 1fr);
+	background: #bbbbbb;
+	text-align: center;
+}
+.weekday {
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+.weekend {
+	background: black;
+	color: red;
+}
+.week-end {
+	color: red;
+}
+
+.copyright {
+	background-color: #1d1d1d;
+	color: white;
+	text-align: center;
+}
+
+.copyright img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.copyright p {
+	padding-bottom: 10px;
+}
